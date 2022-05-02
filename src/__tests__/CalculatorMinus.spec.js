@@ -6,3 +6,4 @@ describe("사직연산 뺄셈 테스트.", () => {
         expect(calculator.minus(3, 5)).toEqual(-2);
     });
 });
+//
