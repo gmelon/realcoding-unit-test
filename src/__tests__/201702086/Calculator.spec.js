@@ -12,6 +12,9 @@ beforeEach(() => {
     console.log("각 테스트 실행시 출력");
   });
   
+beforeEach(() => {
+    console.log("각 테스트 실행 후 출력");
+});
 
     describe("사직연산 덧셈 테스트.", () => {
         test("3과 5를 더하면 8이다.", () => {
