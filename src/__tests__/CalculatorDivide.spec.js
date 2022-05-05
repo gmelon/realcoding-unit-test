@@ -20,13 +20,13 @@ describe("사칙연산 나눗셈 테스트.", () => {
         const calculator = new Calculator();
         expect(() => {
             calculator.divide(100, 0)
-        }).toThrow();
+        }).toThrowError(DivideZeroError);
     });
 
     test("0으로는 나눌 수 없지롱2", () => {
         const calculator = new Calculator();
         expect(() => {
             calculator.divide(10, 0)
-        }).toThrow();
+        }).toThrowError(DivideZeroError);
     });
 });
