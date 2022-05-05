@@ -48,7 +48,7 @@ beforeEach(() => {
              
         });
         test("abs함수는 Math.abs를 호출한다.", () => {
-        
+        //
      });
         });
 
