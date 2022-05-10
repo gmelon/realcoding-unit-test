@@ -50,7 +50,7 @@ describe("가상 함수 테스트해보기", () => {
         const calculator = new Calculator();
         const mockFunction = jest.fn();
         calculator.customCalculation(mockFunction, 1, 2, 3);
-        expect(mockFunction).toHaveBeenCalled(1, 2, 3);
+        expect(mockFunction).toHaveBeenCalledWith(1, 2, 3);
     });
     test("abs함수는 Math.abs를 호출한다.", () => {
         const calculator = new Calculator();
